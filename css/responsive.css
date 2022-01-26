@@ -36,7 +36,29 @@
 	.tript-photos-about .trips-menu{
 		display: none;
 	}
+	.single-check h4{
+		color: #fff;
+		font-size: 22px;
+		text-transform: capitalize;
+		font-weight: 500;
+
+	}
+	.trift-right-item{
+		position: relative;
+		padding-left: 130px;
+		margin-bottom: 20px;
+	}
+	.trift-right-item:before{
+		position: absolute;
+		content: "";
+		left: 0;
+		top: 0;
+		height: 100%;
+		width: 110px;
+		background-color: rgb(228, 68, 68);
+		background: url('../image/trift-right-content/asset\ 41.jpeg')no-repeat center/cover;
 	
+	}
 		
 }
  
