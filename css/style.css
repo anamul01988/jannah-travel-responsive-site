@@ -1,0 +1,1019 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Average+Sans&family=Roboto:wght@400;500;700&display=swap');
+
+body{
+    background-color:#b5ceb3;
+    font-family: 'Roboto', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Average Sans', sans-serif;
+}
+.body{
+    background-color: lightblue;
+}
+.container{
+    background: #fff;
+}
+.p-30{
+    padding: 30px;
+}
+.mb-50{
+    margin-bottom: 50px !important;
+}
+.mb-30{
+    margin-bottom: 30px !important;
+}
+.pb-50{
+    padding-bottom: 50px;
+}
+
+
+/*==== 01 jannah travel logo css ====*/
+/*==== 02 jannah navbar css ====*/
+
+.jannah-navbar .navbar::before {
+    position: absolute;
+    content: "";
+    background-color: rgb(221, 221, 221);
+    height: 1px;
+    width: 100%;
+    top: -1px;
+}
+.jannah-navbar .navbar::after{
+    position:absolute;
+    content:"";
+    background-color: #dddd;
+    height: 1px;
+    width:100%;
+    bottom:0;
+}
+.nav-home-icon{
+    background:#01b7f2;
+    color:#fff;
+}
+.nav-item{
+    color:#999;
+    font-size:14px;
+    line-height: 50px;
+    font-weight: 600;
+    transition:.3s;
+}
+.nav-link{
+    font-family: 'Average Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #2c2f34 !important;
+    text-transform: uppercase;
+    padding: 20px 20px !important;
+}
+.nav-item:hover{
+    background-color: #01b7f2;
+    color: #fff;
+}
+.navbar-nav .none{
+    transition: .3s;
+}
+.navbar-nav .none:hover{
+    background: none;
+    color: #0085c0 !important;
+}
+.nav-home-icon a{
+    font-size:30px;
+}
+
+/* .default-heading{
+    position:relative;
+    border-bottom:2px solid #ddd;
+    position:relative;
+}
+.default-heading:before {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 50px;
+    background-color: #0085c0;
+    bottom: -2px;
+    left: 0;
+}
+
+.default-heading .default-h{
+    text-transform: uppercase;
+    font-size:18px;
+    line-height:25px;
+    font-weight:600;
+    color:#01b7f2;
+    display: inline-block;
+}  */
+
+
+/*====start home-slider section no 2 ====*/
+.home-slider{
+   /*  padding: 30px; */
+}
+.home-slider-item{
+    background-color: #ddd;
+     /* background: url('../image/home-slider/pic1.jpeg')no-repeat center/ cover;
+      padding: 20px;
+    padding-top: 250px; */
+    position: relative;
+     z-index: 1;
+}
+.home-slider-item:before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    top: 0;
+    left: 0;
+    opacity: .5;
+    z-index: -1;
+    }
+.slider-one{
+     background: url('../image/home-slider/pic1.jpeg')no-repeat center/ cover;
+    padding: 20px;
+    padding-top: 250px;
+}
+.slider-two{
+     background: url('../image/home-slider/pic2.jpeg')no-repeat center/ cover;
+    padding: 20px;
+    padding-top: 250px;
+}
+.slider-three{
+     background: url('../image/home-slider/pic3.jpeg')no-repeat center/ cover;
+    padding: 20px;
+    padding-top: 250px;
+}
+.slider-four{
+     background: url('../image/home-slider/pic4.jpeg')no-repeat center/ cover;
+    padding: 20px;
+    padding-top: 250px;
+}
+span.country {
+    position: absolute;
+    top: 26px;
+    left: 25px;
+    color: #fff;
+    font-size: 13px;
+    background: #8186f1;
+    padding: 5px 16px;
+    text-transform: uppercase;
+    border-radius: 7px;
+}
+
+span.date {
+    color: #fff;
+    font-size: 13px;
+}
+.home-slider-item h4 a{
+    color: #fff;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 600;
+    text-decoration: none;
+}
+.home-slider .col-lg-3{
+    padding: 5px;
+}
+/*====end home-slider section no 2 ====*/
+/*====start tript-photos-about section no 3 ====*/
+section.tript-photos-about {
+    padding-left: 30px;
+}
+
+.tript {
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+.tript-trending {
+    background: url('../image/tript-photos-about/tript-left.jpeg')no-repeat center/cover;
+    padding: 250px 20px 20px 20px;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.tript-trending:before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: #000;
+    top: 0;
+    left: 0;
+    opacity: .5;
+    z-index: -1;
+ }
+  span.location {
+    background: #0ebaf1;
+    padding: 5px;
+    font-size: 15px;
+    text-transform: capitalize;
+    border-radius: 2px;
+}
+
+.tript-trending h3 a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+    text-transform: capitalize;
+    font-weight: 600;
+    line-height: 30px;
+    padding-top: 10px;
+    cursor: pointer;
+    font-family: 'Average Sans', sans-serif;
+}
+.tript-trending-footer {
+    display: flex;
+    font-size: 13px;
+    text-transform: capitalize;
+}
+/* .tript-trending-footer div {
+    display: inline-block;
+      font-size: 13px;
+    text-transform: capitalize;
+}
+
+.comment-like {
+    float: right;
+}
+ */
+.tript-trending-footer span i {
+    /* display: inline-block; */
+    padding-right: 5px;
+}
+span.author {
+    /* margin-right: 8px; */
+}
+
+.author-date {
+    margin-right: 21px;
+}
+
+span.like {
+    color: #ea6a42;
+}
+.title {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #01b7f2;
+    font-weight: 600;
+    display: inline-block;
+}
+
+ul.trips-menu {
+    float: right;
+    display: inline-block;
+}
+
+ul.trips-menu li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 12px;
+    color: #2c2f34;
+    padding: 6px 10px;
+    border-radius: 5px;
+    transition: .5s;
+  /*   font-family: 'Average Sans', sans-serif; */
+}
+
+ul.trips-menu li {
+    list-style: none;
+    text-transform: capitalize;
+    display: inline-block;
+}
+ul.trips-menu li a:hover {
+   background: #01b6f1;
+   color: #fff;
+}
+.title-bar {
+    /* overflow: hidden; */
+    margin-bottom: 15px;
+    position: relative;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 15px;
+}
+.title-bar:before{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 50px;
+    left: 0;
+    background-color: #01b6f1;
+    bottom: -2px;
+
+}
+
+
+.trift-right-item{
+    position: relative;
+    padding-left: 150px;
+    margin-bottom: 20px;
+}
+.trift-right-item:before{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    height: 105%;
+    width: 135px;
+    background-color: #ddd;
+    background: url('../image/trift-right-content/pic`.jpeg')no-repeat center/cover;
+
+}
+.trift-right-item:hover.trift-right-item:after{
+    position: absolute;
+    content: "+";
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    line-height: 70px;
+    left: 0;
+    top: 0;
+    height: 105%;
+ /*   height: 135px; */
+    width: 135px;
+    background-color: #000;
+    opacity: .7;
+   /*  background: url('../image/trift-right-content/pic`.jpeg')no-repeat center/cover; */
+}
+.trift-right-item h4 a{
+    font-size: 14px;
+    font-weight: 600;
+    transition: .4s;
+     text-decoration: none;
+    text-transform: capitalize;
+    color: #2c2f34;
+      font-family: 'Average Sans', sans-serif;
+   
+}
+.trift-right-item h4 a:hover{
+    color: #01b6f1;
+}
+.trift-right-item span{
+    font-size: 12px;
+}
+.trift-right-item h4{
+    line-height: 15px;
+}
+
+/* ========= start tript-photos-about section no 3.1 =========  */
+.photos{
+   /*  padding: 30px; */
+    border: 1px solid #ddd;
+    margin: 30px 0;
+    
+}
+.all-photos a{
+    display: inline-block;
+    width: 15%;
+    margin: 5px 3px;
+    position: relative;
+}
+.all-photos a::before{
+    position: absolute;
+    content: "\f03e";
+    height: 100%;
+    width: 100%;
+   /*  background: #000; */
+   background: rgba(0, 0, 0, 0);
+    left: 0;
+    top: 0;
+    font-family: "Font Awesome 5 Free";
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+    visibility: hidden;
+   /*   opacity: 0; */
+    transition: .5s;
+
+}
+.all-photos a:hover:before{
+/*     opacity: .4; */
+    background: rgba(0, 0, 0, .8);
+    visibility: visible;
+    font-size: 40px;
+    transition: .5s;
+   /*  transform: scale(.5); */
+}
+
+/*  ========= end tript-photos-about section no 3.1 =========  */
+/* ====start tript-photos-about section no 3.2 About Me==== */
+.about-me,
+.subscribe-box{
+    padding: 30px 30px 10px 30px;
+    border: 1px solid #ddd;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.about-me .title{
+    color: #2c2f34;
+}
+.about-me  .title-bar::before{
+    background: #2c2f34;
+}
+.about-me-content{
+    text-align: center;
+}
+.about-me-content h4{
+    font-size: 23px;
+    font-weight: 600;
+    padding: 20px 0 0 0;
+}
+.about-me-content p{
+    font-size: 14px;
+}
+/* ====start tript-photos-about section no 3.2 Subscribe Box==== */
+.subscribe-box{
+    text-align: center;
+}
+.subscribe-box i{
+    font-size: 40px;
+    display: block;
+    color: rgb(194, 187, 187);
+}
+.subscribe-box span{
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    position: relative;
+}
+.subscribe-box span:after{
+    position: absolute;
+    content: "";
+    left: 50%;
+    bottom: 12px;
+    height: 2px;
+    width: 50px;
+    background: #dddd;
+    margin-left: -25px;
+}
+.subscribe-box h4{
+    font-size: 28px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.subscribe-box input{
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 5px 5px 5px 40px;
+    color: #ddd;
+    position: relative;
+}
+.subscribe-box form{
+    position: relative;
+}
+.subscribe-box form:after{
+    position: absolute;
+    content: "\f0e0";
+    font-family: "Font Awesome 5 Free";
+    font-size: 20px;
+    color: #fff;
+    left: 0px;
+    top: 4px;
+    color: #ddd;
+    width: 50px;
+    height: 50px;
+}
+.subscribe-box  button{
+    width: 100%;
+    background: #01b7f2;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 15px;
+    transition: .3s;
+}
+.subscribe-box  button:hover{
+    /* background: #0085C0; */
+    opacity: .8;
+    color: #fff;
+    transition: .3s;
+}
+/*======= start tript-photos-about section no 3.2======= */
+/*====end tript-photos-about section no 3 ====*/
+/* =========== start Check section no 4=========== */
+.single-check{
+       position: relative;
+       padding: 300px 20px 20px 20px;
+       width: 100%;
+       color: #ddd;
+}
+.single-check-left{
+    background: url("../images/asset 31.jpeg") no-repeat center/cover;
+
+}
+.single-check-right{
+    background: url("../images/asset 32.jpeg") no-repeat center/cover;
+}
+
+.single-check h4{
+    color: #fff;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.single-check{
+    z-index: 1;
+}
+.single-check::before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #000;
+    opacity: .6;
+    z-index: -1;
+}
+/* =========== end Check section no 4=========== */
+/*  ===== trend-popular-follow-recent Start 05 ===== */
+.trending{
+    border: 1px solid #ddd;
+}
+ .tript-trending .trips-trending-footer{
+    font-size: 12px;
+    text-transform: capitalize;
+}
+ .tript-trending .trips-trending-footer div{
+    display: inline-block;
+    margin-top: 15px;
+}
+ .tript-trending .trips-trending-footer .comment-like{
+    float: right;
+}
+.trend-popular-follow-recent .trending-box span{
+    color: #757;
+    font-size: 11px;
+}
+.trend-popular-follow-recent .trending-box i {
+    font-size: 13px;
+    padding-top: 5px;
+        margin-left: 20px;
+}
+.popular-follow-recent .trending-box .comment{
+    float: right!important;
+    display: inline-block;
+}
+.trend-popular-follow-recent .trending-box h5 a{
+    font-size: 23px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 600;
+    color: #000;
+    
+}
+/* .trend-popular-follow-recent .trending-box .author-date{
+    padding-top: 10px;
+}
+.trending-box .comment{
+    margin-left: 30px;
+}
+ */
+ .trending-box div{
+    font-size: 12px;
+    text-transform: capitalize;
+      display: inline-block;
+    margin-top: 15px;
+}
+ .trending-box .comment{
+    float: right;
+}
+
+/*=== 08.Recent Articles===*/
+.recent-articles{
+    border: 1px solid #ddd;
+}
+.articles-img{
+    width: 100%;
+    height: 190px;
+    padding: 10px;  
+      position: relative;
+}
+
+.articles-img-1{
+    background: url("../images/asset 10.jpeg") no-repeat center/cover;
+}
+.articles-img-2{
+    background: url("../images/asset 6.jpeg") no-repeat center/cover;
+}
+.articles-img-3{
+    background: url("../images/asset 7.jpeg") no-repeat center/cover;
+}
+.articles-img-4{
+    background: url("../images/asset 8.jpeg") no-repeat center/cover;
+}
+.articles-img-5{
+    background: url("../images/asset 9.jpeg") no-repeat center/cover;
+}
+.articles-img-6{
+    background: url("../images/asset 12.jpeg") no-repeat center/cover;
+}
+.articles-single a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+}
+.articles-single p{
+    font-size: 13px;
+    color: #666666;
+}
+.articles-img span.country{
+    position: absolute;
+    top: 140px;
+    left: 200px;
+    
+}
+.articles-single .trips-trending-footer{
+    font-size: 12px;
+    text-transform: capitalize;
+}
+.articles-single .trips-trending-footer div{
+    display: inline-block;
+    margin-top: 15px;
+}
+.articles-single .trips-trending-footer .comment-like{
+    float: right;
+}
+.articles-single .articles-img i{
+    position: absolute;
+    font-size: 60px;
+    top: 50%;
+    left: 50%;
+    height: 60px;
+    width: 60px;
+    margin-top: -30px;
+    margin-left: -30px;
+    color: #fff;
+    text-align: center;
+    line-height: 60px;
+    transition: .5s;
+    opacity: 0;
+}
+
+.articles-img:hover i{
+    font-size: 40px;  
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    margin-top: -30px;
+    margin-left: -30px;
+    opacity: 1;
+
+}
+.articles-img::before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: #000;
+    opacity: 0;
+}
+.articles-img:hover::before{
+    opacity: 0.7;
+}
+.load-more{
+    border: 1px solid #ddd;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.load-more a{
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+}
+/*===09. Follow Me===*/
+.follow-me{
+    border: 1px solid #ddd;
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+
+.follow-me .title{
+    font-size: 15px;
+    color: #2c2f34;
+}
+.follow-me .title-bar:before{
+    background-color: #2c2f34;
+}
+.social-followers li{
+    display: inline-block;
+}
+ul.social-followers li a{
+    color: #fff;
+    background: #6699FF;
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    font-size: 20px;
+    margin-left: 9px;
+    transition: .3s;
+    position: relative;
+}
+ul.social-followers li:nth-child(2) a{
+    background: #40BFF5;
+}
+ul.social-followers li:nth-child(3) a{
+    background: #EF4E41;
+}
+ul.social-followers li:nth-child(4) a
+  {
+    background: #CD5D9D;
+}
+
+ul.social-followers li a:hover{
+    opacity: .8;
+}
+ul.social-followers li a span{
+    color: #999;
+    position: absolute;
+    font-size: 13px;
+    left: 0px;
+    top: 65px;
+    line-height: 23px;
+}
+/*============10.end  Follow Me============*/
+/*========== Popular Articles 5.7 start========== */
+.popular-articles{
+    border: 1px solid #ddd;
+}
+.popular-articles .trips-right-item{
+    padding-left: 150px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.popular-articles .trips-right-item::before{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    height: 110%;
+    width: 130px;
+    background-color: #ddd;
+    /* background: url("../images/asset 17.jpeg") no-repeat center/cover; */
+}
+.popular-articles .trips-right-item-one::before{
+    background: url("../images/asset 7.jpeg") no-repeat center/cover;
+}
+.popular-articles .trips-right-item-two::before{
+    background: url("../images/asset 4.jpeg") no-repeat center/cover;
+}
+.popular-articles .trips-right-item-three::before{
+    background: url("../images/asset 17.jpeg") no-repeat center/cover;
+}
+.popular-articles .trips-right-item-four::before{
+    background: url("../images/asset 8.jpeg") no-repeat center/cover;
+}
+.popular-articles .trips-right-item-five::before{
+    background: url("../images/asset 4.jpeg") no-repeat center/cover;
+}
+
+
+.trips-right-item .number{
+    position: absolute;
+    background: #01B7F2;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    line-height: 30px;
+    left: -15px;
+    top: -12px;
+    border: 2px solid #fff;
+}
+.popular-articles .trips-right-item h4 a{
+    font-family: 'Average Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #2c2f34;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .3s;
+}
+.popular-articles .trips-right-item h4{
+    line-height: 15px;
+}
+.popular-articles .trips-right-item span{
+    font-size: 12px;
+}
+.popular-articles .trips-right-item h4 a:hover{
+    color: #01B6F1;
+}
+.popular-articles .title {
+    font-size: 15px;
+    color: #2c2f34;
+}
+.popular-articles .title-bar:before{
+    background-color: #2c2f34;
+}
+/*================ Popular Articles 5.7 end======= ===========*/
+/*================ advertisement, Follow Twitter 5.8 start ===========*/
+.follow-twitter{
+    border: 1px solid #ddd ;
+}
+.follow-twitter .title {
+    font-size: 15px;
+    color: #2c2f34;
+}
+.follow-twitter .title-bar:before{
+    background-color: #2c2f34;
+}
+.follow-twitter p{
+    font-size: 13px;
+    color: #666666;
+}
+.follow-twitter span{
+    font-size: 13px;
+    color: #666666;
+    margin-left: 220px;
+    padding-top: 0;
+}
+.twitter-menu li{
+    list-style: none;
+    display: inline-block; 
+}
+.twitter-menu a{
+    font-size: 13px;
+}
+.twitter-menu li a{
+    padding: 5px 5px;
+}
+.twitter-menu li i{
+    border: 1px solid #ddd;
+    padding: 5px;
+    color: #666666;
+}
+.follow-us{
+    background: #01B6F1;
+    text-align: center;
+    padding: 1px;
+    
+}
+.follow-us a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 100;
+}
+/*================ advertisement, Follow Twitter 5.8 end ===========*/
+/*  ==============end trend-popular-follow-recent  05========= ===== */
+/*==================== start Footer section no 06====================*/
+.col-20{
+    width: 20%;
+    padding: 15px 15px;
+    float: left;
+}
+.footer ul li{
+    display: inline-block;
+    
+}
+.footer ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer{
+    background: url("../images/asset 50.jpeg") no-repeat center/cover;
+    padding: 50px 30px 30px 30px;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+}
+.footer::before{
+    position: absolute;
+    content: "";
+    height: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #000;
+    opacity: .9;
+    z-index: -1;
+}
+h4.footer-title{
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 30px;
+    font-size: 13px;
+    font-weight: 600;
+}
+h4.footer-title::before{
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 15px;
+    height: 2px;
+    width: 50px;
+    background-color: #01B7F2;
+}
+.footer-tags li a{
+    border: 1px solid #5e5b5b;
+    padding: 5px;
+    display: inline-block;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    font-size: 12px;
+}
+.footer-post li{
+    width: 32%;
+    margin-bottom: 5px;
+}
+.footer-destinations li{
+    display: block !important;
+    text-transform: capitalize;
+    padding-left: 15px;
+    position: relative;
+}
+.footer-destinations li  a{
+    
+}
+.footer-destinations li span{
+    
+    background: #01B7F2;
+    
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 20px;
+    width: 20px;
+    border-radius: 2px;
+}
+.footer-destinations li::before{
+    position: absolute;
+    content: " < ";
+    left: 0;
+    top: 0;
+}
+.footer-blog{
+    padding: 60px 15px 15px 15px;
+    position: relative;
+    z-index: 1;
+}
+.footer-blog-1{
+    background: url("../images/asset 3.jpeg") no-repeat center/cover;
+}
+.footer-blog-2{
+    background: url("../images/asset 4.jpeg") no-repeat center/cover;
+}
+.footer-blog-3{
+    background: url("../images/asset 5.jpeg") no-repeat center/cover;
+}
+.footer-blog-4{
+    background: url("../images/asset 6.jpeg") no-repeat center/cover;
+}
+.footer-blog-5{
+    background: url("../images/asset 7.jpeg") no-repeat center/cover;
+}
+
+.footer-blog::before{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    opacity: .3;
+    z-index: -1;
+}
+.footer-blog h3{
+    font-size: 17px;
+    font-weight: 600;
+    
+}
+p.copyright{
+    font-size: 13px;
+    padding-top: 30px;
+}
+.social-icon{
+    float: right;
+    padding-top: 30px;
+}
+.social-icon li a{
+    padding: 5px 5px;
+}
+.social-icon a:hover{
+    background: #E13138;
+    color: #FCB000;
+    border-radius: 50%;
+    }
+/*==================== end Footer section no 06====================*/
+
+
