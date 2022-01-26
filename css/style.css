@@ -983,16 +983,20 @@ h4.footer-title::before{
 .footer-blog span{
     color: rgb(242 233 233);
 }
-p.copyright{
-    font-size: 13px;
-    padding-top: 30px;
+.footer-footer p{
+    font-size: 17px;
+   
 }
 .social-icon{
     float: right;
     padding-top: 30px;
 }
-.social-icon li a{
-    padding: 5px 5px;
+.social-icon li a {
+    padding: 8px 10px;
+    margin-right: 8px;
+    background: blueviolet;
+    border: 5%;
+    transition: .3s ease-in;
 }
 .social-icon a:hover{
     background: #E13138;
