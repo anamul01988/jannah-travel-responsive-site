@@ -41,7 +41,6 @@
 		font-size: 22px;
 		text-transform: capitalize;
 		font-weight: 500;
-
 	}
 	.trift-right-item{
 		position: relative;
@@ -59,6 +58,41 @@
 		background: url('../image/trift-right-content/asset\ 41.jpeg')no-repeat center/cover;
 	
 	}
+	 .recent-articles .articles-single a{
+		text-decoration: none;
+		color: #000;
+		font-size: 18px;
+		font-weight: 600;
+	}
+	.recent-articles .articles-single h3 {
+		line-height: 25px;
+		margin-top: 10px;
+	}
+	.popular-articles .trips-right-item{
+		padding-left: 120px;
+		margin-bottom: 25px;
+		position: relative;
+	}
+	.popular-articles .trips-right-item::before{
+		position: absolute;
+		content: "";
+		left: 0;
+		top: 0;
+		height: 110%;
+		width: 110px;
+		background-color: #ddd;
+	}
+	.footer-blog h3{
+		
+		font-size: 15px;
+
+		
+	}
+	.footer-blog span{
+	
+		font-size: 12px;
+	}
+	
 		
 }
  
