@@ -543,11 +543,7 @@ span.like {
     text-transform: capitalize;
 }
  .tript-trending .trips-trending-footer div{
-    display: inline-block;
     margin-top: 15px;
-}
- .tript-trending .trips-trending-footer .comment-like{
-    float: right;
 }
 .trend-popular-follow-recent .trending-box span{
     color: #757;
@@ -558,10 +554,7 @@ span.like {
     padding-top: 5px;
         margin-left: 20px;
 }
-.popular-follow-recent .trending-box .comment{
-    float: right!important;
-    display: inline-block;
-}
+
 .trend-popular-follow-recent .trending-box h5 a{
     font-size: 23px;
     text-decoration: none;
@@ -569,23 +562,9 @@ span.like {
     font-size: 13px;
     font-weight: 600;
     color: #000;
+    margin-top: 5px;
+    line-height: 20px;
     
-}
-/* .trend-popular-follow-recent .trending-box .author-date{
-    padding-top: 10px;
-}
-.trending-box .comment{
-    margin-left: 30px;
-}
- */
- .trending-box div{
-    font-size: 12px;
-    text-transform: capitalize;
-      display: inline-block;
-    margin-top: 15px;
-}
- .trending-box .comment{
-    float: right;
 }
 
 /*=== 08.Recent Articles===*/
